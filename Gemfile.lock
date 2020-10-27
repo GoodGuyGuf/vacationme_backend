@@ -89,6 +89,9 @@ GEM
     graphql (1.11.5)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
+    image_processing (1.12.0)
+      mini_magick (>= 4.9.5, < 5)
+      ruby-vips (>= 2.0.17, < 3)
     jmespath (1.4.0)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -102,6 +105,7 @@ GEM
       mimemagic (~> 0.3.2)
     method_source (1.0.0)
     mimemagic (0.3.5)
+    mini_magick (4.10.1)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.2)
@@ -156,6 +160,8 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    ruby-vips (2.0.17)
+      ffi (~> 1.9)
     spring (2.1.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -186,6 +192,7 @@ DEPENDENCIES
   byebug
   graphiql-rails
   graphql
+  image_processing (~> 1.2)
   listen (~> 3.2)
   money-rails (~> 1.12)
   pg (>= 0.18, < 2.0)

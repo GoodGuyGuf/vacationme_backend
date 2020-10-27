@@ -17,18 +17,17 @@ gem 'bcrypt', '~> 3.1.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
-# Integration of RubyMoney - Money with Rails. Read more: https://github.com/RubyMoney/money-rails
-gem 'money-rails', '~>1.12'
-
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 
+# Use Active Storage variant
+gem 'image_processing', '~> 1.2'
+# Integration of RubyMoney - Money with Rails. Read more: https://github.com/RubyMoney/money-rails
+gem 'money-rails', '~>1.12'
 # Ruby implementation of GraphQL. Read more: https://github.com/rmosolgo/graphql-ruby
 gem 'graphql'
-
 # Mount the GraphiQL query editor in a Rails app. Read more: https://github.com/rmosolgo/graphiql-rails
 gem 'graphiql-rails'
-
 # The official AWS SDK for Ruby. Read more: https://github.com/aws/aws-sdk-ruby
 gem "aws-sdk-s3", require: false
 
