@@ -20,10 +20,13 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 
+# Ruby implementation of GraphQL. Read more: https://github.com/rmosolgo/graphql-ruby
 gem 'graphql'
 
+# Mount the GraphiQL query editor in a Rails app. Read more: https://github.com/rmosolgo/graphiql-rails
 gem 'graphiql-rails'
 
+# The official AWS SDK for Ruby. Read more: https://github.com/aws/aws-sdk-ruby
 gem "aws-sdk-s3", require: false
 
 group :development, :test do
