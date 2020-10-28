@@ -22,8 +22,6 @@ gem 'rack-cors'
 
 # Use Active Storage variant
 gem 'image_processing', '~> 1.2'
-# Integration of RubyMoney - Money with Rails. Read more: https://github.com/RubyMoney/money-rails
-gem 'money-rails', '~>1.12'
 # Ruby implementation of GraphQL. Read more: https://github.com/rmosolgo/graphql-ruby
 gem 'graphql'
 # Mount the GraphiQL query editor in a Rails app. Read more: https://github.com/rmosolgo/graphiql-rails
